@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(56, 56, 56);
+}
+
+.sobrenos {
+    color: #6F00FF;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+
+.desc {
+    max-width: 650px;
+    color: #ffff;
+}
+
+.constelacao {
+    width: 450px;
+    margin-top: -108px;
+    position: relative;
+    animation: 
+        constelacao 2.8s infinite;
+}
+
+@keyframes constelacao {
+    50% {
+        transform: translateY(-10%);
+    }
+}
+
+.terra {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(https://www.gisandbeers.com/wp-content/uploads/2018/09/Descargar-Blue-Marble-de-la-NASA.jpg);
+    background-size: cover;
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #3a95ff;
+    animation: rotate 25s linear infinite;
+}
+@keyframes rotate {
+    to{background-position: 100%;}
+}
+
+.sol {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/04/16/58/map-4818824_1280.jpg);
+    background-size: cover;
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #ffc13a;
+    animation: rotate 25s linear infinite;
+}
+@keyframes rotate {
+    to{background-position: 100%;}
+}
+
+.lua {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image: url(https://proxy.olhardigital.com.br/wp-content/uploads/2022/03/mapa-da-lua.jpg);
+    background-size: cover;
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #c2c2c2;
+    animation: rotate 25s linear infinite;
+}
+@keyframes rotate {
+    to{background-position: 100%;}
+}
+
+.venus {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/04/17/12/map-4818876_1280.jpg);
+    background-size: cover;
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #FF9932;
+    animation: rotate 25s linear infinite;
+}
+@keyframes rotate {
+    to{background-position: 100%;}
+}
+
+.duvidas {
+    color: #6F00FF;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+.integrantes {
+    color: #6F00FF;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+.ana {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.brito {
+    width: 120px;
+    border-radius: 150%;
+}
+
+.erika {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.everaldo {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.giovana {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.stephanie {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.tais {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.container img {
+    margin-right: -60px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.titleIntegrantes {
+    text-align: center;
+}
+
+.person {
+    display: flex;
+}
+
+.infoPerson h1{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.infoPerson p{
+    color: #fff;
+    opacity: 0.4;
+    font-size: 19px;
+    margin-left: 80px;
+    position: relative;
+    top: -8px;
+}
+
+.infoPerson {
+    margin-right: -10px;
+
+}
